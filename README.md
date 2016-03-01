@@ -14,9 +14,12 @@ z (integer)is the adjustment to be made to the total of the dice (signed by the 
 t (integer) is the test to be made against the randomly selected result. If surrounded by [square brackets] the test will be performed upon the result of each dice. If surrounded by (round brackets) the test will be performed upon the final sum of the roll, after applying the adjustment. If followed by a -, the test will check for t or lower (inclusive) otherwise, it assumes a + and tests will search for t or higher (inclusive)
 
 X, Z, and T are optional.
+
     without an X, one dice of that type will be rolled.
     without a Y, the sum will be simply the sum of the dice.
     without a T, an object will be returned representing the result of the dice.
+
+The method will return one of two things; an integer representing the number of dice that passed the test (in a per-dice test) an integer representing if the total passed the test (in a sum test) or a javascript object representing the result.
     
 The untested result object will be of this format:
 {
