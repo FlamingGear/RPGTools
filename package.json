@@ -1,0 +1,7 @@
+{
+    "name": "dice-engine",
+    "description": "A simple engine for rolling any amount of any-sided dice, and testing their results",
+    "dependencies": {
+        "lodash": "~4.5.1"
+    }
+}
