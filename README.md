@@ -22,8 +22,8 @@ The untested result object will be of this format:
 ```javascript
 {
     dice[]      : []   //the array of results of EACH dice.
-    sum         : 0     //the integer sum of the results (after applying adjustment)
-    adjustment  : 0     //the adjustment made to the sum
+    sum         : 0    //the integer sum of the results (after applying adjustment)
+    adjustment  : 0    //the adjustment made to the sum
     multiples[] : []   //an array of booleans representing if there are matching sets.
 }
 ```
